@@ -1,14 +1,43 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Open Sans", sans-serif;
+  background: url(https://www.cosmosyachting.com/wp-content/uploads/2018/06/Greece-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+input,
+button {
+  font-family: "Open Sans", sans-serif;
+}
+button {
+  cursor: pointer;
+}
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Pacifico");
+
+h1 {
+  /* font-family: "Pacifico", cursive; */
+  color: #1abc9c;
+  width: 85%;
+  display: table;
+  margin: 20px auto;
+}
+.tutorial {
+  padding: 10px;
+  color: #222;
+  background: #ecf0f1;
+  text-align: center;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
